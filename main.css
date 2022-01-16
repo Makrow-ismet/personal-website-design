@@ -1,0 +1,158 @@
+#menu{
+    background-color: #EAEAEA;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+}
+#menu a{
+    color: #252A34;
+    font-size: 25px;
+    margin: 0 10px 0 10px;
+}
+#menu > div{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+#menu > div> a{
+    font-size: 30px;
+    width: 100%;
+    margin: 0 5px 0 5px;
+    color: #252A34;
+}
+#menu div >div{
+    width: 0;
+    height: 0;
+    border-color: transparent transparent #EAEAEA transparent;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    right: 8px;
+    top: 20px;
+    z-index: 1;
+    display: none;
+}
+#menu span{
+    font-size: 15px;
+    background: #EAEAEA;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 4px;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    right: 5px;
+    top: 40px;
+    display: none;
+}
+#menu div >i{
+    font-size: 30px;
+    margin: 0 5px 0 5px;
+    color: #252A34;
+}
+#menu div >i:hover ~ div{
+    display: block;
+}
+#menu div >i:hover ~ span{
+    display: block;
+}
+i{
+    color: #252A34;
+}
+#anasyf{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image:  linear-gradient(to top right,rgba(37, 42, 52,0.9),rgba(255, 46, 99,0.9) ),url("code.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#anasyf h1{
+    position: relative;
+    font-size: 50px;
+    color: #EAEAEA;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+#anasyf h2{
+    position: relative;
+    font-size: 30px;
+    color: #08D9D6;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+}
+#icerik{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    background-image:  linear-gradient(to top right,#252A34,#FF2E63);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#icerik >a> div{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 48%;
+    margin: 0.5% 0 0 6%;
+    box-shadow: 2px 0 25px 0 black;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
+    overflow: hidden;
+}
+#icerik a div img{
+    width: 100%;
+}
+
+#icerik a div h1{
+    font-size: 75%;
+    font-weight: bold;
+    color: #EAEAEA;
+}
+
+#icerik a div p{
+    font-size: 80%;
+    margin-bottom: 0;
+    color: #EAEAEA;
+}
+#hkmd{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 200%;
+    background-image:  linear-gradient(to bottom right,#252A34,#FF2E63);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hkmd p{
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 10%;
+    font-size: 15px;
+}
+#hkmd img{
+    width: 40%;
+    border: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 20%;
+}
+html{scroll-behavior: smooth;}
