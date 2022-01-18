@@ -10,10 +10,30 @@
 a{
     text-decoration: none;
 }
-#menu a{
+#menu >a{
+    position: relative;
     color: #252A34;
-    font-size: 25px;
-    margin: 0 10px 0 10px;
+    font-size: 22px;
+    margin-top: -128px;
+    margin-left: -4px;
+    padding: 0 20px 0 20px;
+    border-right: 2px solid #252A34;
+    font-family: 'Oleo Script', cursive;
+}
+#menu >a:hover{
+    transition: 750ms;
+    background-color: rgba(37, 42, 52);
+    color:#EAEAEA; 
+}
+#menu >div>a>i:hover{
+    transition: 750ms;
+    background-color: rgba(37, 42, 52);
+    color:#EAEAEA; 
+}
+#menu >div>i:hover{
+    transition: 750ms;
+    background-color: rgba(37, 42, 52);
+    color:#EAEAEA; 
 }
 #menu > div{
     position: fixed;
@@ -51,6 +71,7 @@ a{
     right: 5px;
     top: 40px;
     display: none;
+    font-family: 'Oleo Script', cursive;
 }
 #menu div >i{
     font-size: 30px;
@@ -63,6 +84,18 @@ a{
 #menu div >i:hover ~ span{
     display: block;
 }
+#menu div >div:hover{
+    display: block;
+}
+#menu div >div:hover ~ span{
+    display: block;
+}
+#menu div >span:hover ~ div{
+    display: block;
+}
+#menu div >span:hover{
+    display: block;
+}
 i{
     color: #252A34;
 }
@@ -72,7 +105,7 @@ i{
     width: 100%;
     left: 0;
     top: 0;
-    background-image:  linear-gradient(to top right,rgba(37, 42, 52,0.9),rgba(255, 46, 99,0.9) ),url("code.jpg");
+    background-image:  linear-gradient(to top right,rgba(37, 42, 52,0.4),rgba(255, 46, 99,0.4) ),url("bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -83,6 +116,7 @@ i{
     width: 100%;
     text-align: center;
     top: 30%;
+    font-family: 'Oleo Script', cursive;
 }
 #anasyf h2{
     position: relative;
@@ -91,6 +125,7 @@ i{
     width: 100%;
     text-align: center;
     top: 35%;
+    font-family: 'Oleo Script', cursive;
 }
 #icerik{
     position: absolute;
@@ -120,12 +155,14 @@ i{
     font-size: 75%;
     font-weight: bold;
     color: #EAEAEA;
+    font-family: 'Oleo Script', cursive;
 }
 
 #icerik a div p{
     font-size: 80%;
     margin-bottom: 0;
     color: #EAEAEA;
+    font-family: 'Oleo Script', cursive;
 }
 #hkmd{
     position: absolute;
@@ -143,6 +180,7 @@ i{
     left: 50%;
     top: 10%;
     font-size: 15px;
+    font-family: 'Oleo Script', cursive;
 }
 #hkmd img{
     width: 40%;
