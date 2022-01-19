@@ -181,6 +181,9 @@ i{
     top: 10%;
     font-size: 15px;
     font-family: 'Oleo Script', cursive;
+    top: 15%;
+      margin: auto;
+      display: block;
 }
 #hkmd img{
     width: 40%;
@@ -190,7 +193,11 @@ i{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: relative;
-    left: 40px;
-    top: 20%;
+    display: block;
+    top: 25%;
+    margin-left: 45px !important;
+      margin: auto;
+      display: block;
+
 }
 html{scroll-behavior: smooth;}
