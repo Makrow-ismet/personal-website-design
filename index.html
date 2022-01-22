@@ -5,6 +5,12 @@
     <title>Geliştirici sitesi</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function none()
+        {
+            document.getElementById("menbuts").style.left="-100%";
+        }
+    </script>
 </head>
 <body>
 <div id="menu">
@@ -13,14 +19,14 @@
             <i class="fa fa-bars"></i>
     </label>
     <a href="index.html">Makrow</a>
-    <ul>
-        <li><a href="#anasyf">Anasayfa</a></li>
-        <li><a href="#icerik">İçerikler</a></li>
-        <li><a href="#hkmd">Hakkımda</a></li>
+    <ul id="menbuts">
+        <li><a href="#anasyf" onclick="none()">Anasayfa</a></li>
+        <li><a href="#icerik" onclick="none()">İçerikler</a></li>
+        <li><a href="#hkmd" onclick="none()">Hakkımda</a></li>
         <div>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter-square"></i></a>
-            <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" onclick="none()"><i class="fa fa-instagram"></i></a>
+            <a href="http://twitter.com/" target="_blank" onclick="none()"><i class="fa fa-twitter-square"></i></a>
+            <a href="https://github.com/" target="_blank" onclick="none()"><i class="fa fa-github"></i></a>
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <div></div>
             <span>Mail adı</span>
